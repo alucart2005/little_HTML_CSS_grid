@@ -47,6 +47,29 @@ main{
     }
   }
   .cards{
-    background-color: rgb(215, 65, 65);
+    // background-color: rgb(215, 65, 65);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(250px,1fr);
+    gap: 200px;
+    .card{
+      overflow: hidden;
+      background: #fff;
+      border-radius: 20px;
+      min-height: 250px;
+      padding: 20px;
+      box-shadow: 1px 1px 15px rgba( 0, 0, 0, 0.9 );
+      .imgs{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 220px 80px;
+        gap: 20px;
+        .img{
+          overflow: hidden;
+          border-radius: 16px;
+        }
+      }
+    }
   }
 }
