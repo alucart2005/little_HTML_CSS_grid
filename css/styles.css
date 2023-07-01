@@ -46,4 +46,7 @@ main header .btns span {
 main header .btns span:hover {
   background: #e6e6e6;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+main .cards {
+  background-color: rgb(215, 65, 65);
 }/*# sourceMappingURL=styles.css.map */

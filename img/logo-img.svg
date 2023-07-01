@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="ionicon"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg8"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12">
+    <linearGradient
+       id="linearGradient876">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop872" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0;"
+         offset="1"
+         id="stop874" />
+    </linearGradient>
+    <radialGradient
+       xlink:href="#linearGradient876"
+       id="radialGradient878"
+       cx="256"
+       cy="256"
+       fx="256"
+       fy="256"
+       r="224"
+       gradientTransform="matrix(1,0,0,0.85714286,0,36.571429)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <rect
+     x="48"
+     y="80"
+     width="416"
+     height="352"
+     rx="48"
+     ry="48"
+     fill="none"
+     stroke="currentColor"
+     stroke-linejoin="round"
+     stroke-width="32"
+     id="rect2"
+     style="fill-opacity:1;fill:url(#radialGradient878)" />
+  <circle
+     cx="336"
+     cy="176"
+     r="32"
+     fill="none"
+     stroke="currentColor"
+     stroke-miterlimit="10"
+     stroke-width="32"
+     id="circle4" />
+  <path
+     d="M304 335.79l-90.66-90.49a32 32 0 00-43.87-1.3L48 352M224 432l123.34-123.34a32 32 0 0143.11-2L464 368"
+     fill="none"
+     stroke="currentColor"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="32"
+     id="path6" />
+</svg>
