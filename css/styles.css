@@ -42,6 +42,7 @@ main header .header {
 }
 main header .header h1 {
   color: #291d19;
+  text-align: center;
 }
 main header .header .btns {
   margin-top: 20px;
