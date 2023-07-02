@@ -6,7 +6,7 @@
 }
 body{
   margin: 50px auto;
-  background-color: #D8DAE0;
+  background: radial-gradient( circle,  rgb(125, 69, 69) 0%, rgb(234, 224, 224) 90%, rgba(255, 255, 255, 0.8) 100.2% );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,6 +43,12 @@ main{
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
+        .active{
+          color: #fff;
+          font-weight: 600;
+          background-color: rgba(65, 88, 208, 0.2);
+          background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+            }
         span{
           padding: 8px 12px;
           background: #fff;
