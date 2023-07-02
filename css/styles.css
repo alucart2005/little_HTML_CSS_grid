@@ -14,6 +14,14 @@ body {
   min-height: 100vh;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -22,20 +30,26 @@ main {
   gap: 56px;
   width: 90%;
   min-height: 400px;
-  background: linear-gradient(135deg, #CE9FFC 10%, #7367F0 100%);
+  background: linear-gradient(135deg, #f5f5f6 30%, #9e9ea7 100%);
   box-shadow: 0 70px 32px 0 rgba(6, 27, 82, 0.1);
   border-radius: 26px;
 }
-main header h1 {
+main header .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main header .header h1 {
   color: #291d19;
 }
-main header .btns {
+main header .header .btns {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-main header .btns span {
+main header .header .btns span {
   padding: 8px 12px;
   background: #fff;
   border-radius: 6px;
@@ -43,20 +57,21 @@ main header .btns span {
   transition: all 0.5s linear;
   cursor: pointer;
 }
-main header .btns span:hover {
+main header .header .btns span:hover {
   background: #e6e6e6;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 main .cards {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-template-rows: repeat(250px, 1fr);
-  gap: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-rows: repeat(230px, 1fr);
+  gap: 16px;
 }
 main .cards .card {
+  background-color: rgba(65, 88, 208, 0.5);
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   overflow: hidden;
-  background: #fff;
   border-radius: 20px;
   min-height: 250px;
   padding: 20px;
@@ -71,4 +86,29 @@ main .cards .card .imgs {
 main .cards .card .imgs .img {
   overflow: hidden;
   border-radius: 16px;
+}
+main .cards .card .imgs .img:first-of-type {
+  grid-column: 1/4;
+}
+main .cards .card .info {
+  color: #0e0e38;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .cards .card h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+main .cards .card .tag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  gap: 16px;
+}
+main .cards .card .tag img {
+  width: 20px;
+  cursor: auto;
 }/*# sourceMappingURL=styles.css.map */
